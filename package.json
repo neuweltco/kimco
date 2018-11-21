@@ -1,0 +1,32 @@
+{
+  "name": "kimcoprocessors.org",
+  "version": "1.0.0",
+  "description": "Kimco website running on node.js",
+  "main": "app.js",
+  "scripts": {
+    "watch": "nodemon app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neuweltuganda/kimco.git"
+  },
+  "author": "Neuwelt Uganda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neuweltuganda/kimco/issues"
+  },
+  "homepage": "https://github.com/neuweltuganda/kimco#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.5.0",
+    "admin-lte": "^2.4.8",
+    "body-parser": "^1.18.3",
+    "bootstrap": "^4.1.3",
+    "bower": "^1.8.4",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.8",
+    "popper.js": "^1.14.4",
+    "webpack": "^4.24.0"
+  }
+}
