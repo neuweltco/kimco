@@ -403,7 +403,7 @@ p {
 }
 
 .sidebar_widget ul li{
-  display: inline-block;
+  display: block;
 }
 
 .sidebar_widget ul li i{
@@ -550,7 +550,7 @@ li:hover>ul li a:hover {
   padding: 5px 0;
 }
 
-more_link {
+.more_link {
   width: 100px;
   text-align: center;
   float: right;
@@ -674,9 +674,16 @@ more_link {
 }
 
 
+/********************************/
+/* Sidebar */
 
+.vision_mission{
+  margin: 4px 5px 10px 40px;
+}
 
-
+hr{
+  width: 80%;
+}
 
 
 
