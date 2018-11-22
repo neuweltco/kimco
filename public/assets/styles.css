@@ -389,9 +389,10 @@ p {
   padding: 6px 0;
   font-weight: 600;
   border-bottom: 1px #ccc dotted;
-  width: 95%;
+  width: 90%;
   height: 4em;
   overflow: hidden;
+  line-height: 2.4;
 }
 
 .sidebar_widget ul li:last-of-type a{
@@ -407,8 +408,8 @@ p {
 }
 
 .sidebar_widget ul li i{
-  width: 5%;
-  line-height: 2;
+  width: 10%;
+  line-height: 2.4;
   vertical-align: top;
   color: #ccc;
 }
