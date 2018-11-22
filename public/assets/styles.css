@@ -327,7 +327,7 @@ p {
   position: absolute;
   left: 0;
   width: 100%;
-  height: inherit;
+  height: 65px;
   background-color: rgba(41, 128, 185, 0.9);
   padding: 10px;
   bottom: 0;

@@ -14,4 +14,7 @@ module.exports = function(app) {
   app.get('/layout_components', function(req, res) {
     res.render('layout_comps');
   });
+  app.get('/popup', function(req, res) {
+    res.render('popup');
+  });
 };

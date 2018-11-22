@@ -18,6 +18,68 @@
   </head>
 
   <body>
+      <style type="text/css">
+        .popup{
+        width: 100%;
+        margin: 0 auto;
+        display: none;
+        position: fixed;
+        z-index: 101;
+    background-color: #906019cb;
+        }
+        .cnt223{
+        min-width: 600px;
+        width: 600px;
+        min-height: 150px;
+        margin: 100px auto;
+    background: rgba(234, 227, 200, 0.95);
+        position: relative;
+        z-index: 103;
+        padding: 15px 35px;
+        box-shadow: 0 2px 5px #000;
+        }
+        .cnt223 a{
+        text-decoration: none;
+        color: #d91900;
+        font-weight: bold;
+        display: contents;
+        }
+      .cnt223 h2{
+          text-align: center;
+      padding: 10px 0;
+      }
+        .cnt223 p{
+        clear: both;
+            color: #555555;
+            /* text-align: justify; */
+            font-size: 20px;
+            font-family: sans-serif;
+        }
+        </style>
+        <script type='text/javascript'>
+        $(function(){
+        var overlay = $('<div id="overlay"></div>');
+        overlay.show();
+        overlay.appendTo(document.body);
+        $('.popup').show();
+        $('.close').click(function(){
+        $('.popup').hide();
+        overlay.appendTo(document.body).remove();
+        return false;
+        });
+        });
+        </script>
+  
+        <div class='popup'>
+        <div class='cnt223'>
+        <h2>Kind Notice!</h2>
+        <p>Welcome to the Kimcoprocessor Website.<br/>
+        Kindly notice that the website is under contrcution, in case of any unexpected behavior or incompletness.</p>
+        <br/>
+        <a href='' class='close'>Proceed!</a>
+        </div>
+        </div>
+
       <div class="header_main">
         <div class="container">
           <div class="row">
